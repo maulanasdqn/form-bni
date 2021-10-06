@@ -4,134 +4,1020 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document BNI</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
   </head>
-  <body>
-    <nav class="navbar">
-      <h1 class="header-text">FORMULIR PENDAFTARAN HAJI</h1>
-      <h1>LOGO</h1>
-    </nav>
-    <div class="kotak">
-      <div class="jenis-jenis">
-        <div class="judul">
-          <h1 class="text-judul">
-            Mohon diisi dengan huruf cetak dan beri tanda ceklis pada kotak
-            pilihan
-          </h1>
-        </div>
-        <div class="jenis-nasabah">
-          <label class="label-jenis" for="jenis">Jenis Nasabah</label>
-
-          <input
-            class="radio"
-            type="radio"
-            name="jenis-nasabah"
-            id="jenis-nasabah"
-            placeholder="Baru"
-          />
-          <label class="baru" for="baru">Baru</label>
-
-          <input
-            class="radio"
-            type="radio"
-            name="jenis-nasabah"
-            id="jenis-nasabah"
-            placeholder="Lama"
-          />
-          <label for="lama">Lama</label>
-        </div>
-        <h1 class="text-judul">
-          Jenis nasabah lama hanya tinggal mengisi yang di tandai kuning
+  <body class="p-16">
+    <nav
+      class="
+        flex
+        bg-yellow-700
+        items-center
+        w-full
+        justify-between
+        px-[40px]
+        h-[60px]
+      "
+    >
+      <div class="flex">
+        <h1 class="text-[30px] text-black-700 font-bold">
+          FORMULIR PEMBUKAAN REKENING PERORANGAN
         </h1>
       </div>
-      <div class="no-cif">
-        <div class="wrap">
-          <h4>No CIF</h4>
-          <h4>*di isi oleh bank</h4>
+      <div class="flex">
+        <h1 class="text-5xl font-bold text-white">BNI</h1>
+      </div>
+    </nav>
+    <div
+      class="
+        flex
+        w-full
+        h-auto
+        border
+        my-1
+        px-[20px]
+        py-[10px]
+        justify-between
+        border-1 border-black-300
+        rounded-lg
+      "
+    >
+      <div class="flex flex-col">
+        <h1 class="text-green-400 font-medium text-[14px]">
+          Mohon diisi dengan huruf cetak dan beri tanda ceklis pada kotak
+          pilihan
+        </h1>
+        <div class="flex space-x-[20px] items-center">
+          <h1 class="text-gray-400 font-medium text-[14px]">Jenis Nasabah</h1>
+          <div class="flex space-x-[30px]">
+            <div class="flex items-center space-x-[10px]">
+              <input type="checkbox" />
+              <label for="" class="text-gray-400 font-medium text-[14px]"
+                >Baru</label
+              >
+            </div>
+            <div class="flex items-center space-x-[10px]">
+              <input type="checkbox" />
+              <label for="" class="text-gray-400 font-medium text-[14px]"
+                >Ekisting</label
+              >
+            </div>
+          </div>
         </div>
-        <div class="box">
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
-          <div class="box-l"></div>
+        <h1 class="text-green-400 font-medium text-[14px]">
+          Nasabah Eksisting cukup mengisi bagian yang bertanda kuning dan data
+          CIF berubah (jika ada)
+        </h1>
+      </div>
+      <div
+        class="
+          flex flex-col
+          border border-1
+          px-[10px]
+          py-[3px]
+          justify-between
+          border-yellow-700
+          w-[230px]
+          h-[60px]
+        "
+      >
+        <div class="flex justify-between w-full">
+          <h1 class="text-[14px] text-black-200">No. CIF :</h1>
+          <h1 class="text-[12px] text-black-200">*) diisi oleh Bank</h1>
+        </div>
+        <div class="flex justify-center">
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
+          <div
+            class="
+              w-[20px]
+              h-[20px]
+              border
+              border-t-0
+              border-b-1
+              border-l-1
+              border-r-1
+              border-black-300
+            "
+          ></div>
         </div>
       </div>
     </div>
-    <div class="data-nasabah">
-      <h1>DATA NASABAH</h1>
+    <div class="flex my-1 rounded-lg bg-yellow-700 w-full h-[30px] px-[40px]">
+      <h1 class="text-black-700 font-bold text-[20px]">
+        DATA NASABAH (CIF) PERORANGAN
+      </h1>
     </div>
-    <div class="input-data">
-      <div class="data-diri">
-        <label for="nama">Nama Lengkap (Sesuai dengan tanda pengenal)</label>
-        <input class="input-nama" type="text" placeholder="Masukan Nama Anda" />
+    <div
+      class="
+        flex
+        px-[40px]
+        py-[10px]
+        border
+        rounded-lg
+        border-1 border-black-300
+        w-[1/2]
+        h-auto
+      "
+    >
+      <div class="flex w-1/2 flex-col">
+        <div class="flex flex-col">
+          <h1 class="text-black-300 text-[16px] font-bold">
+            Nama Lengkap (sesuai tanda pengenal) :
+          </h1>
+          <p>
+            ......................................................................................................................................
+          </p>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 text-[16px] font-bold">Nama alias :</h1>
+          <p>
+            ....................................................................................................................
+          </p>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 text-[16px] font-bold">Data Pribadi</h1>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">
+            Jenis Kelamin :
+          </h1>
+          <div class="flex items-center space-x-[10px]">
+            <h1 class="text-black-300 order-2 text-[14px] ml-2">Laki-laki</h1>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div class="flex items-center space-x-[10px]">
+            <h1 class="text-black-300 order-2 text-[14px] ml-2">Perempuan</h1>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">
+            Kewarganegaraan :
+          </h1>
+          <div class="flex items-center space-x-[10px]">
+            <h1 class="text-black-300 order-2 text-[14px] ml-2">WNI</h1>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div class="flex items-center space-x-[10px]">
+            <h1 class="text-black-300 order-2 text-[14px] ml-2">WNA</h1>
+            <input class="order-1" type="checkbox" name="" id="" />
+            <h1 class="order-3">
+              negara asal..........................................
+            </h1>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">
+            Tanda Pengenal :
+          </h1>
+          <div class="flex flex-col">
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">KTP</h1>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">
+                  Paspor (disertai KITAS/KITAP/Referensi)
+                </h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">SIM</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Akta</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">Nomor :</h1>
+          <div class="flex justify-center">
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px] mr-6">
+            Berlaku s/d :
+          </h1>
+          <div class="flex flex-col">
+            <div class="flex space-x-[20px]">
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">tgl</h1>
+                <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">bln</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">thn</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex items-center">
+              <h1 class="text-black-300 order-2 text-[14px] font-normal">
+                berlaku seumur hidup
+              </h1>
+              <input type="checkbox" name="" id="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-medium mr-6">
+            Tempat Lahir
+          </h1>
+          <div class="flex">
+            <p>
+              :...............................................................
+            </p>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px] mr-6">
+            Tanggal Lahir
+          </h1>
+          <div class="flex flex-col">
+            <div class="flex space-x-[20px]">
+              <div class="flex items-center">
+                <h1 class="text-black-300 text-[14px]">:</h1>
+                <h1 class="text-black-300 order-2 text-[14px]">tgl</h1>
+                <input type="checkbox" name="" id="" />
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">bln</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">thn</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px] mr-6">
+            Status Pernikahan
+          </h1>
+          <div class="flex flex-col">
+            <div class="flex space-x-[20px]">
+              <div class="flex items-center">
+                <h1 class="text-black-300 text-[14px]">:</h1>
+                <h1 class="text-black-300 order-2 text-[14px]">Lajang</h1>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">Menikah</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center">
+                <h1 class="text-black-300 order-2 text-[14px]">Janda/Duda</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">Agama :</h1>
+          <div class="flex flex-col">
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Islam</h1>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Kristen</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Budha</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Hindu</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Katolik</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">
+                  Konghucu
+                </h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Lainya</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">
+            Pendidikan terakhir:
+          </h1>
+          <div class="flex flex-col">
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">SD</h1>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">S1</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">SMP</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">S2</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">SMA</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Diploma</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">S3</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="flex text-black-300 text-[14px]">NPWP :</h1>
+          <div class="flex ml-6">
+            <h1 class="text-black-300 order-2 ml-2 text-[14px]">Ada</h1>
+            <input type="checkbox" name="" id="" />
+          </div>
+          <div class="flex ml-6">
+            <h1 class="text-black-300 order-2 ml-2 text-[14px]">Tidak Ada</h1>
+            <input type="checkbox" name="" id="" />
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">Nomor :</h1>
+          <div class="flex justify-center">
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+            <div
+              class="
+                w-[20px]
+                h-[20px]
+                border
+                border-t-0
+                border-b-1
+                border-l-1
+                border-r-1
+                border-black-300
+              "
+            ></div>
+          </div>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-bold">
+            Nama Gadis ibu
+            Kandung:.........................................................
+          </h1>
+        </div>
+        <div class="flex">
+          <h1 class="text-black-300 font-normal text-[14px]">Hobi :</h1>
+          <div class="flex flex-col">
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">
+                  Olahraga
+                </h1>
+                <input type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Seni</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">
+                  Otomotif
+                </h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Belanja</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+            <div class="flex">
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">
+                  Jalan-jalan
+                </h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+              <div class="flex items-center space-x-[10px]">
+                <h1 class="text-black-300 order-2 text-[14px] ml-2">Lainya</h1>
+                <input class="order-1" type="checkbox" name="" id="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="text-[14px] text-black-300 font-bold">
+            Data Alamat Tempat Tinggal
+          </h1>
+          <p>
+            Alamat sesuai tanda pengenal : copy tanda pengenal terlampir <br />
+            Alamat Tempat Tinggal Terkini (diisi hanya jika berbeda dengan tanda
+            pengenal) <br />
+            Untuk alamat tempat tinggal terkini di indonesia : <br />
+            ......................................................................................................................
+          </p>
+          <div class="flex items-center">
+            <h1 class="text-black-300 mr-6 text-[14px] font-normal">RT/RW</h1>
+            <h1 class="text-black-300 text-[14px] mr-1 font-normal">:</h1>
+            <div class="flex">
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+            </div>
+            <h1>/</h1>
+            <div class="flex">
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col space-y-2">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Desa/Kelurahan:.....................................................................
+          </h1>
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Kelurahan:........................................................................
+          </h1>
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Kecamatan:.......................................................................
+          </h1>
+          <div class="flex">
+            <div class="flex order-2 items-center">
+              <h1 class="text-black-300 text-[14px] font-normal">Kode Pos :</h1>
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+              <input type="checkbox" name="" id="" />
+            </div>
+            <h1 class="text-black-300 text-[14px] font-normal">
+              Kota:.......................................................................
+            </h1>
+          </div>
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Provinsi:.......................................................................
+          </h1>
+        </div>
       </div>
-      <div class="data-misc">
-        <label for="alias">Nama alias : </label>
-        <input type="text" placeholder="Masukan Nama Alias Anda" />
-      </div>
-      <div class="data-misc">
-        <label for="alias">Jenis kelamin : </label>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">Laki-laki</label>
+      <div class="flex w-1/2 flex-col px-[24px]">
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-medium">
+            Untuk Alamat Tempat Tinggal Terkini di Negara Lain (apabila ada):
+            <br />
+            .................................................................................................................................
+          </h1>
         </div>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">Perempuan</label>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Jalan/Apt/Bld:................................................................
+          </h1>
         </div>
-      </div>
-      <div class="data-misc">
-        <label for="alias">Kewarganegaraan : </label>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">WNI</label>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Nama
+            Kota:................................................................
+          </h1>
         </div>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">WNA</label>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Prop/Neg.bagian:................................................................
+          </h1>
         </div>
-      </div>
-      <div class="data-misc">
-        <label for="alias">Tanda pengenal : </label>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">KTP</label>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Nama
+            Negara:................................................................
+          </h1>
         </div>
-        <div class="perempuan">
-          <input type="checkbox" placeholder="Masukan Nama Alias Anda" />
-          <label class="prem" for="perempuan">SIM</label>
+        <div class="flex">
+          <h1 class="text-black-300 text-[14px] font-normal">
+            Kode
+            Pos:................................................................
+          </h1>
         </div>
-      </div>
-      <div class="data-misc">
-        <label for="alias">Nomor : </label>
-        <input type="text" placeholder="Masukan Nomor" />
-      </div>
-      <div class="data-misc">
-        <label for="alias">Berlaku spd : </label>
-        <div class="perempuan">
-          <label class="prem" for="perempuan">tgl</label>
-          <input type="text" placeholder="Masukan Tanggal" />
-        </div>
-        <div class="perempuan">
-          <label class="prem" for="perempuan">bln</label>
-          <input type="text" placeholder="Masukan Bulan" />
-        </div>
-        <div class="perempuan">
-          <label class="prem" for="perempuan">thn</label>
-          <input type="text" placeholder="Masukan Tahun" />
-        </div>
-      </div>
-      <div class="data-misc">
-        <label for="">Tempat lahir</label>
-        <input type="text" placeholder="Masukan tempat lahir anda" />
       </div>
     </div>
   </body>
