@@ -1,0 +1,121 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  --oren: rgb(255, 178, 13);
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-left: 40px;
+  padding-right: 60px;
+  height: 60px;
+  background-color: var(--oren);
+}
+
+.data-nasabah {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+  padding-left: 40px;
+  margin-top: 30px;
+  background-color: var(--oren);
+}
+
+.header-text {
+  font-size: 30px;
+}
+
+.text-judul {
+  font-size: 14px;
+}
+
+.input-data {
+  margin-top: 30px;
+  padding-left: 40px;
+}
+
+.data-diri {
+  display: flex;
+  flex-direction: column;
+}
+
+.prem {
+  margin-left: 10px;
+}
+
+.perempuan {
+  display: flex;
+  margin-left: 20px;
+  align-items: center;
+}
+
+.data-misc {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-nama {
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.no-cif {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  padding: 10px;
+  border: black solid 3px;
+}
+
+.wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box {
+  display: flex;
+}
+
+.box-l {
+  width: 20px;
+  height: 20px;
+  border: solid 2px black;
+  margin-left: 6px;
+}
+
+.kotak {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+}
+
+.jenis-nasabah {
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+}
+
+.label-jenis {
+  margin-right: 40px;
+}
+
+.radio {
+  margin-right: 10px;
+}
+
+.baru {
+  margin-right: 20px;
+}
